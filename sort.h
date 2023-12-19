@@ -28,8 +28,8 @@ void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void quick_sort(int *array, size_t size);
-void quicksort(int *array, size_t size, ssize_t lo, ssize_t hi);
-size_t lomuto_partition(int *array, size_t size, ssize_t lo, ssize_t hi);
+void quicksort(int *array, size_t size, ssize_t low, ssize_t high);
+size_t lowmuto_partition(int *array, size_t size, ssize_t low, ssize_t high);
 /*void swap(int *array, size_t size, int *a, int *b);*/
-
+void swap_quick(int *array, size_t size, int *a, int *b);
 #endif
