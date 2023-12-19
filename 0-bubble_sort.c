@@ -1,12 +1,12 @@
 #include "sort.h"
+
 /**
- * buble_sort - funttion that take two integer size and array
- * bubble sorting algorithm
+ * bubble_sort - Sorts an array of integers using the bubble sort algorithm.
  *
- * @array: array of integers
- * @size: size of array
- *
-*/
+ * @array: Pointer to an array of integers.
+ * @size: Size of the array.
+ */
+
 void bubble_sort(int *array, size_t size)
 {
 	int temp;
