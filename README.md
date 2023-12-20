@@ -1,5 +1,3 @@
-## Sorting Algorithms and Big O Notation Analysis
-
 # Welcome to Sorting World using C Language
 
 This project is dedicated to showcasing various classic sorting techniques and their corresponding Big O notations, all implemented in the C programming language. Gaining insights into sorting algorithms and their efficiency is fundamental for any computer scientist or developer.
