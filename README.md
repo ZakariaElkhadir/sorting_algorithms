@@ -1,75 +1,25 @@
-```markdown
-# Sorting Algorithms in C
+## Sorting Algorithms and Big O Notation Analysis
 
-This project contains various sorting algorithms implemented in C. You can use these algorithms to sort arrays of elements in ascending order.
+# Welcome to Sorting World using C Language
 
-## List of Sorting Algorithms
+This project is dedicated to showcasing various classic sorting techniques and their corresponding Big O notations, all implemented in the C programming language. Gaining insights into sorting algorithms and their efficiency is fundamental for any computer scientist or developer.
 
+# The following sorting algorithms are implemented in this project:
 1. Bubble Sort
 2. Selection Sort
 3. Insertion Sort
 4. Merge Sort
 5. Quick Sort
+6. Heap Sort
+7. Radix Sort
 
-## Getting Started
+# Format used for Quiz and Task questions:
+- O(1) (Constant time complexity)
+- O(n) (Linear time complexity)
+- O(n!) (Factorial time complexity)
+- O(n^2) (Quadratic time complexity)
+- O(log(n)) (Logarithmic time complexity)
+- O(nlog(n)) (Linearithmic time complexity)
+- O(n+k) (Linear time complexity with an additional factor)
 
-### Prerequisites
-
-Make sure you have a C compiler installed on your machine. If not, you can install one such as GCC.
-
-### Compilation
-
-Compile the sorting algorithms using the following command:
-
-```bash
-gcc -o main main.c bubble_sort.c selection_sort.c insertion_sort.c merge_sort.c quick_sort.c
-```
-
-### Usage
-
-Run the compiled program:
-
-```bash
-./main
-```
-
-You will be prompted to choose a sorting algorithm and input the array to be sorted. Follow the on-screen instructions.
-
-## Example
-
-Here's an example of how to use the sorting algorithms:
-
-1. Choose a sorting algorithm from the list.
-2. Input the size of the array.
-3. Input the elements of the array.
-
-Example:
-
-```plaintext
-Choose a sorting algorithm:
-1. Bubble Sort
-2. Selection Sort
-3. Insertion Sort
-4. Merge Sort
-5. Quick Sort
-
-Enter your choice: 1
-
-Enter the size of the array: 5
-
-Enter the elements of the array:
-4 2 7 1 5
-
-Sorted array using Bubble Sort: 1 2 4 5 7
-```
-
-## Contributing
-
-If you want to contribute to this project by adding new sorting algorithms or improving existing ones, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Make sure to replace the placeholder sorting algorithm names with the actual names of your sorting algorithm files. Additionally, update the example usage section based on the user interface and input methods of your program.
+Happy Sorting :)
